@@ -9,6 +9,7 @@ import ButtonContainer from './Button';
 class Navbar extends Component {
     
     render() { 
+        
         return ( 
         
         <NavbarWrapper className="navbar navbar-expand-sm  navbar-dark px-sm">
@@ -27,6 +28,7 @@ class Navbar extends Component {
             <ButtonContainer>
                 <span className='mr-2'>
                  <i className="fa fa-cart-plus"></i>
+                 
                  </span>
                  my cart
             </ButtonContainer>

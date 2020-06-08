@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {storeProducts,detailProduct} from './data';
+import {NotificationContainer, NotificationManager} from 'react-notifications';
+
 
 const ProductContext = React.createContext();
 
